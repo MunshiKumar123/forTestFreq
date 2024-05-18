@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* body scrool bar */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: darkgrey lightgrey;
+}
+
+body::-webkit-scrollbar {
+    width: 10px; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #c4cec6;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #3e5863;
+}
+
+
