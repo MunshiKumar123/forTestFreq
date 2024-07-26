@@ -1,16 +1,9 @@
-import React, { useCallback, useEffect, useState } from "react";
-import './Style.css';
-import { Route, Routes } from "react-router-dom";
-import MenuNavigation from './naviagtion/MenuNavigation';
-
-const App = () => {
+import React from "react";
+import Dashboard from "./Dashboard";
+export default function DenseTable() {
   return (
     <React.Fragment>
-      <Routes>
-        <Route path="*" name="dashboard" element={<MenuNavigation />} />
-      </Routes>
+      <Dashboard />
     </React.Fragment>
   );
-};
-
-export default App;
+}
